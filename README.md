@@ -26,12 +26,12 @@ o formulário e apertar no botão que chegará no meu e-mail.
 ### Projetos
 Neste portfólio, mostro 6 projetos que desenvolvi, incluindo as linguagens utilizadas e os links para o GitHub e o Netlify de cada projeto. Os projetos incluem:
 
-Projeto A: Foto prévia do projeto A, incluindo as linguagens utilizadas e o link para o GitHub e Netlify.
-Projeto B: Foto prévia do projeto B, incluindo as linguagens utilizadas e o link para o GitHub e Netlify.
-Projeto C: Foto prévia do projeto C, incluindo as linguagens utilizadas e o link para o GitHub e Netlify.
-Projeto D: Foto prévia do projeto D, incluindo as linguagens utilizadas e o link para o GitHub e Netlify.
-Projeto E: Foto prévia do projeto E, incluindo as linguagens utilizadas e o link para o GitHub e Netlify.
-Projeto F: Foto prévia do projeto F, incluindo as linguagens utilizadas e o link para o GitHub e Netlify.
+- Projeto A: Foto prévia do projeto A, incluindo as linguagens utilizadas e o link para o GitHub e Netlify.
+- Projeto B: Foto prévia do projeto B, incluindo as linguagens utilizadas e o link para o GitHub e Netlify.
+- Projeto C: Foto prévia do projeto C, incluindo as linguagens utilizadas e o link para o GitHub e Netlify.
+- Projeto D: Foto prévia do projeto D, incluindo as linguagens utilizadas e o link para o GitHub e Netlify.
+- Projeto E: Foto prévia do projeto E, incluindo as linguagens utilizadas e o link para o GitHub e Netlify.
+- Projeto F: Foto prévia do projeto F, incluindo as linguagens utilizadas e o link para o GitHub e Netlify.
 
 ### Responsividade
 Este portfólio foi desenvolvido com design responsivo, o que significa que ele pode ser visualizado e utilizado em dispositivos móveis, como smartphones, além de computadores desktop. 
