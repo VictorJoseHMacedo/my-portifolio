@@ -157,7 +157,7 @@ a:hover {
     .foto-pessoal {
         width: 15%;
         height: 20%;
-        left: 12.6em;
+        left: 11em;
         top: 9em;
 
     }
@@ -170,15 +170,15 @@ a:hover {
 
     .texto {
         position: relative;
-        top: -95px;
+        top: -99px;
         font-size: 30px;
-        padding-left: 70px;
+        padding-left: 45px;
 
 
     }
 
     .my-name {
-        left: 6.40rem;
+        left: 4.5rem;
         top: -5.80rem;
         font-size: 0.85rem;
     }
@@ -188,13 +188,15 @@ a:hover {
     .about-me {}
 
     .contact-text {
-        margin-top: -30em;
+        margin-top: -32em;
         margin-bottom: 15em;
-        margin-left: -1.45rem;
+        margin-left: -3rem;
 
     }
 
-    .text-about-contact {}
+    .text-about-contact {
+        border-bottom: 1px solid $green-light;
+    }
 
     .link-wpp {
         text-decoration: none;

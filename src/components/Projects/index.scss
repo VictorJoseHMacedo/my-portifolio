@@ -112,13 +112,13 @@
 
     .projects-list li {
         width: 60%;
-        padding: 20px;
+        padding: 25px;
         text-align: center;
     }
 
     .img-list {
-        width: 90vw;
-        margin-left: -16.1vh;
+        width: 93vw;
+        margin-left: -13.1vh;
         height: 30vh;
         margin-bottom: 2px;
 
@@ -128,21 +128,23 @@
         font-size: 15px;
     }
 
-    .linguagens-lista {}
+    .linguagens-lista {
+        position: relative;
+        left: -7.85em;
+    }
 
     .linguagens {
-        padding: 3px;
-
+    
+        
     }
 
     .link-to-project {
-        gap: 1.1em;
-        margin-top: -30px;
-        margin-right: -125px;
+        position: relative;
+        left: 9em;
     }
 
     .img-projects-link {
-        width: 130%;
+        width: 100%;
     }
 
 
