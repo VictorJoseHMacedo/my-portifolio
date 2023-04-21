@@ -10,7 +10,8 @@ Este projeto contém 4 componentes principais: Footer, Header, Project e Skills.
 
 ## Componentes
 ### Header
-O componente Header é a área de cabeçalho do site, exibindo o nome, redes sociais, e falando um pouco sobre mim, contendo um avatar meu ao lado.
+O componente Header é a área de cabeçalho do site, exibindo o nome, redes sociais, e falando um pouco sobre mim, contendo um avatar meu ao lado. E possui um link
+escrito entrar em contato aonde se o usuário apertar leva ao whatsapp com uma mensagem já predefinida.
 
 ### Skills
 O componente Skills ou Habilidades exibe minhas habilidades em linguagens de programação, frameworks e outras tecnologias que tenho experiência.
