@@ -1,0 +1,207 @@
+@use '../../assets/sass/variables' as *;
+
+.header-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em 0 0;
+
+    &__name {
+        font-size: 2.4em;
+        color: $white;
+    }
+
+    &__media {
+        display: flex;
+        gap: 1rem;
+        width: 5rem;
+
+    }
+}
+
+a {
+    transition: 0.5s;
+}
+
+a:hover {
+    transform: scale(1.1);
+
+}
+
+.container {
+    position: relative;
+}
+
+
+.foto-pessoal {
+    width: 30%;
+    height: 20%;
+    position: relative;
+    left: 70em;
+    top: -2em;
+    z-index: 999;
+    background: transparent;
+}
+
+.imagem-anel {
+    position: relative;
+    top: -30em;
+    left: -5em;
+    width: 40%;
+}
+
+.texto {
+    color: $white;
+    position: relative;
+    top: -550px;
+    font-size: 55px;
+    padding-left: 193px;
+    background-color: transparent;
+
+
+}
+
+.my-name {
+    color: $white;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    position: relative;
+    left: 12.2rem;
+    top: -34rem;
+    background-color: transparent;
+
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    box-shadow: 0.1rem 0 0 white;
+    animation: blinkCursor 500ms steps(40) infinite normal,
+        typing 4s steps(40) 1s normal both;
+
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: white;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 20em;
+    }
+}
+
+.about-me {
+    color: $white;
+    padding-left: 190px;
+    background: transparent;
+    font-size: 16px;
+    position: relative;
+    top: -33rem;
+    left: 0.2rem;
+
+}
+
+.contact-text {
+    color: white;
+    margin-top: -30em;
+    margin-bottom: 15em;
+    margin-left: -1.45rem;
+    font-size: 15px;
+
+}
+
+.text-about-contact {
+    margin-left: 14.6em;
+    border-bottom: 1px solid $green-light;
+}
+
+.link-wpp {
+    text-decoration: none;
+}
+
+
+@media (max-width: 480px) {
+    .header-menu {
+        padding: 1.2em 0 0;
+
+        &__name {
+            font-size: 2em;
+            margin-top: 0.35em;
+        }
+
+        &__media {
+            display: flex;
+            gap: 0.5rem;
+            padding: 1em 0 0;
+
+        }
+    }
+
+    a {}
+
+    a:hover {}
+
+    .container {}
+
+
+    .foto-pessoal {
+        width: 15%;
+        height: 20%;
+        left: 12.6em;
+        top: 9em;
+
+    }
+
+    .imagem-anel {
+        top: -4em;
+        left: -4em;
+        width: 60%;
+    }
+
+    .texto {
+        position: relative;
+        top: -95px;
+        font-size: 30px;
+        padding-left: 70px;
+
+
+    }
+
+    .my-name {
+        left: 6.40rem;
+        top: -5.80rem;
+        font-size: 0.85rem;
+    }
+
+
+
+    .about-me {}
+
+    .contact-text {
+        margin-top: -30em;
+        margin-bottom: 15em;
+        margin-left: -1.45rem;
+
+    }
+
+    .text-about-contact {}
+
+    .link-wpp {
+        text-decoration: none;
+        position: relative;
+        top: 265px;
+        left: -25px;
+    }
+
+
+}

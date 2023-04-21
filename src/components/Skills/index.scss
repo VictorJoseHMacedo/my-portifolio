@@ -1,0 +1,116 @@
+@use '../../assets/sass/variables' as *;
+
+
+.title-skills {
+  color: $white;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 45px;
+}
+
+.title {
+  border-bottom: 1px solid $green-light;
+}
+.skills-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    color: $white;
+    margin-top: 80px;
+    font-size: 20px;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px; 
+    list-style: none;
+  }
+  
+  .skills-list li {
+    width: 33.33%; // Define a largura para 1/3 do container
+    padding: 20px;
+    text-align: center;
+  }
+
+  .skills-img {
+    width: 40%;
+
+  }
+  
+  .img-anel-skills {
+    position: relative;
+    background: transparent;
+    width: 100%;
+    left: 39em;
+    bottom: 12em;
+  }
+  
+
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  .animate {
+    animation: slide-in 1000ms;
+  }
+
+  @media (max-width: 480px) {
+    .title-skills {
+      font-size: 35px;
+      margin-top: 50px;
+    }
+    
+    .title {
+    }
+    .skills-time {
+        height: 40vh;
+        margin-top: 60px;
+        font-size: 20px;
+        flex-wrap: wrap;
+      }
+      
+      .skills-list {
+        max-width: 500px; 
+        gap: 2em,;
+        list-style: none;
+        font-size: 12px;
+      }
+      
+      .skills-list li {
+        width: 35.33%; 
+      }
+    
+      .skills-img {
+    
+      }
+      
+      .img-anel-skills {
+        width: 60%;
+        left: 12em;
+      }
+      
+    
+      @keyframes slide-in {
+        from {
+          transform: translateX(-100%);
+        }
+        to {
+          transform: translateX(0%);
+        }
+      }
+    
+      .animate {
+        animation: slide-in 1000ms;
+      }
+
+  }

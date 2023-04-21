@@ -1,0 +1,157 @@
+@use '../../assets/sass/variables' as *;
+
+
+.projects {
+    color: $white;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid $green-light;
+    margin-left: 46%;
+    margin-right: 100%;
+}
+
+.projects-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: $white;
+
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: left;
+}
+
+.projects-list li {
+    width: 33.33%; // Define a largura para 1/3 do container
+    padding: 20px;
+    text-align: center;
+}
+
+.img-list {
+    width: 30vw;
+    border-radius: 5px;
+    height: 33vh;
+    margin-bottom: 15px;
+    transition: 0.5s
+}
+
+.title-projects {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.linguagens-lista {
+    text-align: left;
+    padding-left: 0.5em;
+    display: flex;
+    gap: 0.5em;
+}
+
+.linguagens {
+    background-color: $gray;
+    border-radius: 5px;
+    padding: 4px;
+    color: $black;
+}
+
+.link-to-project {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.1em;
+    margin-top: -30px;
+    margin-right: 25px;
+}
+
+.img-projects-link {
+    width: 130%;
+}
+
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+/* ...and then apply it: */
+.animate {
+    animation: slide-in 1000ms;
+}
+
+.img-list:hover {
+    transform: scale(1.1);
+}
+
+
+
+@media (max-width: 480px) {
+    .projects {
+        margin-top: 50px;
+        font-size: 35px;
+        margin-left: 35%;
+    }
+
+    .projects-time {}
+
+    .projects-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .projects-list li {
+        width: 60%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .img-list {
+        width: 90vw;
+        margin-left: -16.1vh;
+        height: 30vh;
+        margin-bottom: 2px;
+
+    }
+
+    .title-projects {
+        font-size: 15px;
+    }
+
+    .linguagens-lista {}
+
+    .linguagens {
+        padding: 3px;
+
+    }
+
+    .link-to-project {
+        gap: 1.1em;
+        margin-top: -30px;
+        margin-right: -125px;
+    }
+
+    .img-projects-link {
+        width: 130%;
+    }
+
+
+    @keyframes slide-in {}
+
+
+    .animate {}
+
+    .img-list:hover {}
+
+
+}
